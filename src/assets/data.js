@@ -1,6 +1,6 @@
 import React from "react";
 import { FaReact, FaCode, FaGitAlt} from "react-icons/fa";
-import { SiTailwindcss } from "react-icons/si";
+import { SiTailwindcss, SiRedux } from "react-icons/si";
 
 const BOOTSTRAP_FOR_SKILL_ICON = "text-4xl mx-auto inline-block   ";
 const data = {
@@ -32,7 +32,11 @@ const data = {
       skillName: "ReactJS",
       skillIcon: <FaReact className={BOOTSTRAP_FOR_SKILL_ICON} />,
     },
-    {
+    // {
+    //   skillName: "Redux",
+    //   skillIcon: <SiRedux className={BOOTSTRAP_FOR_SKILL_ICON} />,
+    // },
+     {
       skillName: "Git",
       skillIcon: <FaGitAlt className={BOOTSTRAP_FOR_SKILL_ICON} />,
     },
@@ -50,17 +54,36 @@ const data = {
       ],
       link: "https://github.com/braydentw/react-tailwind-portfolio"
     },
-    {
-      title: "My personal website",
-      description: "⚡ My portfolio built with NextJS and TailwindCSS.",
+       {
+      title: "RV Rental website",
+      description: "🚎 A website I made for family friend with React + TailwindCSS.",
       tags: [
         "website",
-        "portfolio",
-        "nextjs",
+        "rental",
+        "React",
         "tailwindcss"
       ],
       link: "https://github.com/braydentW/braydentw"
-    }
+    },
+    {
+      title: "Face Recongiton Brain",
+      description: "🧠 Quick Project using face recognition api.",
+      tags: [
+        "api",
+        "react",
+      ],
+      link: "https://github.com/braydentW/braydentw"
+    },
+    {
+      title: "Robo Friends",
+      description: "🤖 Fun Robot name search.",
+      tags: [
+        "api",
+        "react",
+      ],
+      link: "https://github.com/braydentW/braydentw"
+    },
+ 
   ]
 };
 export default data;
