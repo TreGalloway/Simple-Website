@@ -1,11 +1,13 @@
 import React from "react";
 import profile from "../images/profile.png";
 import { FaGithub } from "react-icons/fa";
-import { FaDribbble } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaRegEnvelope } from "react-icons/fa";
+import {FaLinkedin} from "react-icons/fa"
 
-function Card({ name, title, social: { github, dribbble, twitter, email } }) {
+function Card({ name, title, social: { github,linkedin ,twitter,youtube, instagram, email } }) {
   return (
     <div className="w-full">
       <div className="flex flex-col justify-center max-w-xs mx-auto bg-white shadow-xl rounded-xl p-5">
@@ -17,7 +19,7 @@ function Card({ name, title, social: { github, dribbble, twitter, email } }) {
           />
         </div>
         <div className="text-center mt-5">
-          <p className="text-xl sm:text-2xl font-semibold text-gray-900">
+          <p className="text-xl sm:text-2xl font-semibold text-gray-900  ">
             {name}
           </p>
           <p className="text-xs sm:text-base text-gray-600 pt-2 pb-4 px-5 w-auto inline-block border-b-2">
@@ -32,11 +34,18 @@ function Card({ name, title, social: { github, dribbble, twitter, email } }) {
               <span class="sr-only">Github</span>
             </a>
             <a
-              className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-pink-600 hover:bg-pink-600 rounded-full hover:text-white transition-colors duration-300"
-              href={dribbble}
+              className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-blue-600 hover:bg-blue-600 rounded-full hover:text-white transition-colors duration-300"
+              href={linkedin}
             >
-              <FaDribbble />
-              <span class="sr-only">Dribble</span>
+              <FaLinkedin />
+              <span class="sr-only">linkedin</span>
+            </a> 
+            <a
+              className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-red-600 hover:bg-red-600 rounded-full hover:text-white transition-colors duration-300"
+              href={youtube}
+            >
+              <FaYoutube />
+              <span class="sr-only">YouTube</span>
             </a>
             <a
               className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-blue-500 hover:bg-blue-500 rounded-full hover:text-white transition-colors duration-300"
@@ -44,6 +53,13 @@ function Card({ name, title, social: { github, dribbble, twitter, email } }) {
             >
               <FaTwitter />
               <span class="sr-only">Twitter</span>
+            </a> 
+            <a
+              className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-pink-600 hover:bg-pink-600 rounded-full hover:text-white transition-colors duration-300"
+              href={instagram}
+            >
+              <FaInstagram />
+              <span class="sr-only">Instagram</span>
             </a>
             <a
               className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-teal-500 hover:bg-teal-500 rounded-full hover:text-white transition-colors duration-300"

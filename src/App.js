@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./App.css";
 import About from "./partials/About";
 import Card from "./partials/Card";
-import Footer from "./partials/Footer";
+// import Footer from "./partials/Footer";
 import Projects from "./partials/Projects";
 import Skills from "./partials/Skills";
 import data from "./assets/data";
@@ -24,7 +24,7 @@ function App() {
         <About title={data.about.title} description={data.about.description} />
         <Skills skills={data.skills} />
         <Projects projects={data.projects} />
-        <Footer github={data.social.github} />
+        {/* <Footer github={data.social.github} /> */}
       </div>
     </div>
   );

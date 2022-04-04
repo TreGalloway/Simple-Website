@@ -1,17 +1,19 @@
-import React from 'react'
-import GitHubButton from 'react-github-btn'
+// import React from 'react'
 
-function Footer({github}) {
-  return (
-    <div className="text-center w-full mt-16">
-      <p className="text-gray-600 mb-4">
-        Made with <span role="img" aria-label="heart">💙</span> by <a className="text-blue-500 hover:underline" href="https://github.com/BraydenTW">Brayden W</a>
-      </p>
-      <GitHubButton href={github+"/react-tailwind-portfolio"} data-color-scheme="no-preference: light; light: light; dark: light;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</GitHubButton>
-      &nbsp;&nbsp;
-      <GitHubButton href={github+"/react-tailwind-portfolio/fork"} data-color-scheme="no-preference: light; light: light; dark: light;" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork ntkme/github-buttons on GitHub">Fork</GitHubButton>
-    </div>
-  )
-}
 
-export default Footer
+// function Footer() {
+//   return (
+//     <div className=' bg-white-50 items-center mx-w-full'>
+//     <div h1 className='mt-8 text-2xl md:text-4xl text-center font-extrabold'>
+//       <h1>Lets Talk!</h1>
+//     </div>
+//     <div className='justify-items-center'>
+//     <button className='bg-blue-500 text-white px-4 py-2 rounded-md'> DM on Twitter</button>
+//     <button className='text-white bg-blue-600 px-4 py-2 rounded-md'> Connect on LinkeIn</button>
+//     <button className='text-white bg-teal-600 px-4 py-2 rounded-md'> Send Email</button></div>
+    
+//     </div>
+//   )
+// }
+
+// export default Footer

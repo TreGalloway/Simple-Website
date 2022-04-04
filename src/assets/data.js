@@ -1,15 +1,18 @@
 import React from "react";
-import { FaPalette, FaReact, FaCode } from "react-icons/fa";
+import { FaReact, FaCode, FaGitAlt} from "react-icons/fa";
+import { SiTailwindcss } from "react-icons/si";
 
-const BOOTSTRAP_FOR_SKILL_ICON = "text-4xl mx-auto inline-block";
+const BOOTSTRAP_FOR_SKILL_ICON = "text-4xl mx-auto inline-block   ";
 const data = {
-  name: "Brayden W",
-  title: "Front-End Developer/Designer",
+  name: "Tre Galloway",
+  title: "Front-End Developer/Content Creator",
   social: {
-    github: "https://github.com/BraydenTW",
-    dribbble: "https://github.com/BraydenTW",
-    twitter: "https://github.com/BraydenTW",
-    email: "someone@example.com",
+    github: "https://github.com/TreGalloway",
+    instagram: "https://www.instagram.com/bytregalloway/",
+    linkedin:"https://www.linkedin.com/in/tre-galloway-98bb0a199/",
+    youtube: " https://www.youtube.com/channel/UCRQPGu1zovYhIdP86WCTKLw",
+    twitter: "https://twitter.com/bytregalloway",
+    email: "tre@tregalloway.com",
   },
   about: {
     title: "My Background",
@@ -22,23 +25,28 @@ const data = {
       skillIcon: <FaCode className={BOOTSTRAP_FOR_SKILL_ICON} />,
     },
     {
-      skillName: "Design/UX",
-      skillIcon: <FaPalette className={BOOTSTRAP_FOR_SKILL_ICON} />,
+      skillName: "TailwindCSS",
+      skillIcon: <SiTailwindcss className={BOOTSTRAP_FOR_SKILL_ICON} />,
     },
     {
       skillName: "ReactJS",
       skillIcon: <FaReact className={BOOTSTRAP_FOR_SKILL_ICON} />,
     },
+    {
+      skillName: "Git",
+      skillIcon: <FaGitAlt className={BOOTSTRAP_FOR_SKILL_ICON} />,
+    },
   ],
   projects: [
     {
-      title: "React tailwind portfolio",
-      description: "👨‍🎨 An open-source portfolio template built with React and Tailwind.",
+      title: "Crown Clothing",
+      description: "💻 A E-commerce website made with React, Redux, Firebase, Styled-Components.",
       tags: [
-        "template",
-        "portfolio",
+        "ecommerce",
+        "redux",
         "reactjs",
-        "tailwindcss"
+        "styled-components",
+        "firebase"
       ],
       link: "https://github.com/braydentw/react-tailwind-portfolio"
     },
