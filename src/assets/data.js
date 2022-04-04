@@ -1,11 +1,11 @@
 import React from "react";
 import { FaReact, FaCode, FaGitAlt} from "react-icons/fa";
-import { SiTailwindcss, SiRedux } from "react-icons/si";
+import { SiTailwindcss, } from "react-icons/si";
 
 const BOOTSTRAP_FOR_SKILL_ICON = "text-4xl mx-auto inline-block   ";
 const data = {
   name: "Tre Galloway",
-  title: "Front-End Developer/Content Creator",
+  title: "Frontend Dev/Content Creator",
   social: {
     github: "https://github.com/TreGalloway",
     instagram: "https://www.instagram.com/bytregalloway/",
