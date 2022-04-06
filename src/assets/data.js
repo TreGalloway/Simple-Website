@@ -17,7 +17,7 @@ const data = {
   about: {
     title: "My Background",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper porta pharetra. Nunc porta dui eu mattis laoreet. Quisque lobortis orci sagittis, luctus ligula nec, sagittis leo. Ut convallis eu mi dignissim facilisis. Donec egestas vitae sapien quis bibendum. Sed rhoncus aliquet felis, ac cursus dui varius sit amet. Etiam eu nisi ligula. Sed sagittis massa a metus pulvinar, eu vestibulum nulla molestie. Nullam luctus sit amet felis quis ullamcorper. ",
+      "Thanks for checking out my website 🙏🏽! I have work many different jobs, started so many side projects, and all looking for things I like to do. Then one day a video popped up on YouTube about coding that got me interested in it. Started learning Python as a one off thing🤷🏽‍♂️, but along the way started to really get into coding and once I found out about front-end web development I was all in🧑🏽‍💻. Now I’ve learned the basics then moved on to React, Tailwind, SCSS and more in the future.  ",
   },
   skills: [
     {
@@ -52,7 +52,7 @@ const data = {
         "styled-components",
         "firebase"
       ],
-      link: "https://github.com/braydentw/react-tailwind-portfolio"
+      link: "https://github.com/TreGalloway/crwn-clothing-v2"
     },
        {
       title: "RV Rental website",
@@ -63,7 +63,7 @@ const data = {
         "React",
         "tailwindcss"
       ],
-      link: "https://github.com/braydentW/braydentw"
+      link: "https://github.com/TreGalloway/rv-site"
     },
     {
       title: "Face Recongiton Brain",
@@ -72,7 +72,7 @@ const data = {
         "api",
         "react",
       ],
-      link: "https://github.com/braydentW/braydentw"
+      link: "https://github.com/TreGalloway/face-recognition-brain"
     },
     {
       title: "Robo Friends",
@@ -81,7 +81,7 @@ const data = {
         "api",
         "react",
       ],
-      link: "https://github.com/braydentW/braydentw"
+      link: "https://github.com/TreGalloway/robofriends"
     },
  
   ]
